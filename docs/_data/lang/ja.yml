@@ -86,7 +86,7 @@ post:
           load_once: 今回のみ表示
           load_and_do_not_ask_again: 常に表示
   table_of_contents:
-    heading: 見出し
+    heading: 目次
     tooltip:
       move: ドラッグして移動
       close: 閉じる

@@ -16,3 +16,6 @@ Thumbs.db
 
 # diff files
 *.bak
+
+# editer
+.vscode/

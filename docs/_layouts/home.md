@@ -35,6 +35,7 @@ layout: default
     </div>
   </div>
   <div class="home-intro-text markdown-style">
+    {%- assign content = content | replace: '<table', '<table class="table table-striped"' -%}
     {{ content }}
   </div>
 </div>
