@@ -4,7 +4,7 @@
 
 This branch is AoE2.netDesktop GitHub page source.
 
-Please visit https://teshiba.github.io/AoE2.netDesktop/
+Please visit https://teshiba.github.io/
 
 ## Jekyll Theme
 
