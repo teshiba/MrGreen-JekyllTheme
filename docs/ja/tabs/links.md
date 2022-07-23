@@ -40,7 +40,7 @@ lng_pair: id_links
 page_data:
   main:
     header: "Links"
-    info: "Your Links page description."
+    info: "AoE2関連のリンクです。"
 
   # To change order of the Categories, simply change the order. (you don't need to change list order.)
   category:

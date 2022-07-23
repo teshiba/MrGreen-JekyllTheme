@@ -79,7 +79,7 @@ And you can perform the following on the window.
 
 ## Mouse operation
 
-| Area                    | Operation    | Operation content                                              |
+| Area                    | Operation    | Description                                                    |
 | ----------------------- | ------------ | -------------------------------------------------------------- |
 | In the window           | Right-click  | Show context menu.                                             |
 | Player name             | Double-click | Display the history window of the clicked player.              |
@@ -88,7 +88,7 @@ And you can perform the following on the window.
 
 ## Shortcut key
 
-| Operation                 | Operation details                                                   |
+| Operation                 | Description                                                         |
 | ------------------------- | ------------------------------------------------------------------- |
 | Alt + F4                  | Exit the application.                                               |
 | F5                        | Updated match information on the main window.                       |
@@ -103,7 +103,7 @@ Right-click to display the context menu.
 
 ![ContextMenu](:TeamMatch-contextMenu.png "ContextMenu")
 
-| Item            | Operation details                            |
+| Item            | Description                                  |
 | --------------- | -------------------------------------------- |
 | Settings        | Displays the settings window.                |
 | Show my history | Displays the history window of the set user. |
@@ -117,7 +117,7 @@ Right-click to display the context menu.
 The match history of the player with the set ID is displayed.  
 Select the leaderboard from the list and change the left list to the selected match type.  
 
-| Items        | Contents                                                                      |
+| Items        | Description                                                                   |
 | ------------ | ----------------------------------------------------------------------------- |
 | Map          | Maps ever used.                                                               |
 | Rate         | The rate at the time of the match and the change value of the rate.           |
@@ -143,7 +143,7 @@ Select "Data source" to switch between civilization and map.
 Displays information about players ever matched.  
 The left table shows a list of players and player information.  
 
-| Items      | Contents                                                                                           |
+| Items      | Description                                                                                        |
 | ---------- | -------------------------------------------------------------------------------------------------- |
 | Name       | Player name.                                                                                       |
 | Country    | Country name.                                                                                      |
@@ -172,7 +172,7 @@ Show only the players whose country is checked.
 
 Displays statistics and rate history graphs for each match type.
 
-| Items          | Contents                                                    |
+| Items          | Description                                                 |
 | -------------- | ----------------------------------------------------------- |
 | Leaderboard    | The graph shows the match format with the checkbox checked. |
 | Rank           | Current rank                                                |
@@ -197,14 +197,14 @@ Set the window settings and user settings.
 
 ## Display contents
 
-| Items             | Contents                                                                                                                                                    |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Hide title        | Hides the title bar of the main window.                                                                                                                     |
+| Items             | Description                                                                                                                                                     |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Hide title        | Hides the title bar of the main window.                                                                                                                         |
 | Visible game time | It shows the game time started and elapsed.<br> It is the time obtained from the server.<br> So the time is forward from the actual time displayed in the game. |
 
 ## Appearance
 
-| Items                  | Contents                                                    |
+| Items                  | Description                                                 |
 | ---------------------- | ----------------------------------------------------------- |
 | Draw high quality text | Sets the text drawing quality.                              |
 | Always on top          | Set the main window always front.                           |
@@ -214,14 +214,14 @@ Set the window settings and user settings.
 
 ## Behavior
 
-| Items                      | Contents                                                         |
+| Items                      | Description                                                      |
 | -------------------------- | ---------------------------------------------------------------- |
 | Auto reload the last match | Reload the current match information automatically.              |
 | AoE2.Net [status]          | It shows [AoE2.net](https://aoe2.net/ "AoE2.net") Server status. |
 
 ## Player settings
 
-| Items      | Contents                                             |
+| Items      | Description                                          |
 | ---------- | ---------------------------------------------------- |
 | Steam-ID   | Select when set the user using your Steam account.   |
 | profile-ID | Select when set the user using your AoE2net account. |
