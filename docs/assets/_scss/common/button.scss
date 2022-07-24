@@ -7,8 +7,6 @@
   @include get_scheme(button-colors-);
   display: inline-block;
   padding: 4px 12px;
-  border-radius: 8px;
-  border: 1px solid;
   text-decoration: none;
   box-shadow: 1px 1px 3px var(--button-shadow-color);
   transition: all 0.2s ease;
@@ -18,6 +16,27 @@
   color: var(--button-text-color);
   background-color: var(--button-background-color);
   border-color: var(--button-border-color);
+  background-size: 12px;
+  background-image:
+  url("button_big_hover_lefttop.png"), url("button_big_hover_righttop.png"),
+  url("button_big_hover_leftbottom.png"), url("button_big_hover_rightbottom.png"),
+  url("button_big_hover_leftcenter.png"), url("button_big_hover_rightcenter.png"),
+  url("button_big_hover_topcenter.png"), url("button_big_hover_bottomcenter.png"),
+  url("button_big_hover_centercenter.png");
+
+  background-repeat:
+  no-repeat, no-repeat,
+  no-repeat, no-repeat,
+  repeat-y, repeat-y,
+  repeat-x, repeat-x,
+  repeat;
+
+  background-position:
+  left top, right top,
+  left bottom, right bottom,
+  left center, right center,
+  top center, bottom center,
+  center center;
 }
 
 .btn-base:hover {

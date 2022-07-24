@@ -35,6 +35,9 @@
   /* safari height fix */
   width: calc(var(--side-nav-width-def) - 1px);
   display: inline-block;
+  background-size: cover;
+  background-position: right;
+  background-image: url("wooden-bar_bg_left.png");
 }
 
 .side-nav > hr {
@@ -45,6 +48,11 @@
 /* side nav and top nav main title */
 .side-nav-brand {
   text-align: center;
+  background-position: bottom;
+  background-image: url(seperator.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 240px;
 }
 
 .side-nav-brand > img {
@@ -62,16 +70,19 @@
   margin-bottom: 0px;
   margin-top: 0px;
   display: inline-block;
+  text-shadow: 1px 1px 1px black;
 }
 
 .top-nav .top-nav-brand {
   font-size: 2.52rem;
+  font-weight: bold;
   padding-left: 0;
   margin-left: 5px;
 }
 
 .side-nav-brand > .brand-holder > a {
   font-size: var(--side-nav-brand-text-font-size);
+  text-shadow: 1px 1px 1px black;
 }
 
 .top-nav .top-nav-brand,
@@ -97,16 +108,18 @@
 
 /* side nav copyright and color scheme switch */
 .side-nav-footer {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  font-weight: bold;
   text-indent: 0;
   text-align: center;
   line-height: 3rem;
   color: var(--side-nav-copyright-text-color);
-  margin-top: 10px;
+  margin-top: 4px;
   margin-bottom: 10px;
 }
 
 .side-nav-footer p {
+  height: 45px;
   margin: 0;
   padding: 0;
 }

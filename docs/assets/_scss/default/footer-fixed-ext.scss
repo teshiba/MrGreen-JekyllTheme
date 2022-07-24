@@ -13,6 +13,8 @@
 
 /* fix spacing end of container */
 .main-container {
+  margin-top: 32px;
+  padding-top: 80px;
   padding-bottom: calc(
     var(--main-container-padding-bottom) + var(--footer-height)
   );
@@ -27,8 +29,10 @@
 }
 
 .footer-text-centered {
+  margin-top:0px;
   margin-left:0;
 }
+
 
 @media (max-width: 500px) {
   .footer-text-centered.long-copyright {

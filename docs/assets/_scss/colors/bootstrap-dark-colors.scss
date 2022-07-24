@@ -36,15 +36,16 @@
 // post/table-of-contents
 %bootstrap-dark-panel-colors-dark {
   .panel {
-    background-color: #212121;
+    background-color: #00000000;
   }
   .panel-default > .panel-heading {
-    color: #ccc;
-    background-color: #303030;
-    border-bottom-color: #333;
+    padding: 15px 15px;
+    color: rgb(0, 0, 0);
+    background-color: #00000000;
+    border-bottom-color: rgba(0, 0, 0, 0);
   }
   .panel-default {
-    border-color: #333;
+    border-color: rgba(0, 0, 0, 0);
   }
 }
 // default
@@ -97,6 +98,7 @@
   .navbar {
     background-color: #{$menu-background-dark};
     border-color: #222;
+    top: 53px;
   }
   //top nav open top border
   .navbar > .navbar-collapse {

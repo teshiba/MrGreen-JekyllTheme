@@ -12,8 +12,13 @@
 }
 
 .side-nav-bottom-buttons-container {
-  position: relative;
+  width: 249px;
+  position: absolute;
   padding: 0 var(--side-nav-side-margin);
+  background-size: contain;
+  background-repeat: round;
+  background-position: left;
+  background-image: url("button_big_hover.png");
 }
 
 .side-nav-bottom-buttons-container > hr {

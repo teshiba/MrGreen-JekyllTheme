@@ -25,17 +25,12 @@ header {
   left: var(--side-nav-width);
   width: calc(100% - var(--side-nav-width));
   max-width: var(--main-container-max-width);
-  border-radius: 9px;
-  border-color: #7d7d7d;
-  border-width: 2px;
-  border-style: ridge;
-  box-shadow: 0px 0px 7px 3px var(--footer-background-color);
-  background-color: var(--header-background-color);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 23px;
   font-weight: bold;
   visibility: var(--header-visibility);
+  background-image: url("resource-panel_full.png");
 }
 
 .header-text {

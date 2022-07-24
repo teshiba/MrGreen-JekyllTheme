@@ -16,4 +16,9 @@
   margin: 0 0;
   text-align: unset;
   overflow: visible;
+  background-image: none;
+}
+
+.about-container .about-header > .meta-container > .contact-container > ul > hr{
+  border-top-color: #ffffff;
 }

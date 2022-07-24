@@ -3,6 +3,11 @@
  * Licensed under MIT
 */
 
+.links-heading-container {
+  background-color: #212121;
+}
+
+
 .links-heading-container .link-buttons {
   @include get_scheme(link-style-colors-);
   --multipurpose-button-text-color: var(--links-button-text-color);
@@ -15,6 +20,7 @@
   @include get_scheme(bootstrap-dark-table-colors-);
   transition: border-left 1s;
   margin-bottom: 10px;
+  background-color: #212121;
 }
 
 .link-container:hover {

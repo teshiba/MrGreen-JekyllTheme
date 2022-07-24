@@ -13,12 +13,14 @@
   top: 580px;
   left: 20px;
   max-width: calc(var(--side-nav-width-def) + var(--main-container-margin));
+  background-size: cover;
+  background-image: url("techtree_panel.png");
 }
 
 #toc-container .panel.panel-default {
   margin-bottom: 0;
-  border-radius: 10px;
-  box-shadow: 0 0 5px var(--table-of-contents-shadow-color);
+  border-radius: 0px;
+  box-shadow: 0 0 0px var(--table-of-contents-shadow-color);
 }
 
 #toc-container .panel.panel-default .panel-heading {
@@ -40,11 +42,13 @@
 }
 
 #table-of-contents {
+  color: rgb(0, 0, 0);
   margin-top: 0px;
   position: relative;
 }
 
 #table-of-contents .nav > li > a {
+  color: rgb(0, 0, 0);
   font-size: 1.3rem;
   text-overflow: ellipsis;
   white-space: nowrap;
