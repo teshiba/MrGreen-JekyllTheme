@@ -19,7 +19,9 @@
         const tocInputSource = $(".main-container");
 
         /* if it's nothing to show, exit. */
-        if (Toc.helpers.getTopLevel(tocInputSource) <= 1) return false;
+        /* disable condition because cannot show in home.
+         * if (Toc.helpers.getTopLevel(tocInputSource) <= 1) return false;
+         */
         Toc.init({
           $nav: tocOutputTarget
           , $scope: tocInputSource
@@ -28,8 +30,8 @@
           target: tocNavSelector
         });
 
-        /* set toc box top position below the toc-view-top */
-        let tocViewId = $("#toc-view-top");
+        /* set toc box top position below the side-nav-footer */
+        let tocViewId = $("#side-nav-footer");
         if (tocViewId.length > 0) {
           /* get tocViewId bottom position */
           let tocViewIdBottom = (tocViewId.offset().top - $(window).scrollTop()) + tocViewId.outerHeight();

@@ -52,7 +52,7 @@ The software uses the .Net 6.0 runtime, so if it does not work, please install t
 
 ![InitialSetting](:InitalSetting.png "InitialSetting")
 
-3: Set correct ID, AoE2.net status will change to <span style = "color: green">**Online**</span>.
+3: Set correct ID, and AoE2.net status will change to <span style = "color: green">**Online**</span>.
 
 _If [AoE2.net](https://aoe2.net/ "AoE2.net") is available, you can use this app._
 
@@ -79,20 +79,23 @@ And you can perform the following on the window.
 
 ## Mouse operation
 
-| Operation method | Area                    | Operation content                                |
-| ---------------- | ----------------------- | ------------------------------------------------ |
-| Right-click      | In the window           | Show context menu                                |
-| Double-click     | Player name             | Display the history window of the clicked player |
-| Drag             | Text/image display area | Window movement                                  |
+| Area                    | Operation    | Description                                                    |
+| ----------------------- | ------------ | -------------------------------------------------------------- |
+| In the window           | Right-click  | Show context menu.                                             |
+| Player name             | Double-click | Display the history window of the clicked player.              |
+| Map                     | Double-click | Updated match information on the main window. (same as F5 key) |
+| Text/image display area | Drag         | Window movement.                                               |
 
-## Keyboard operation
+## Shortcut key
 
-| Operation method          | Operation details                                                   |
+| Operation                 | Description                                                         |
 | ------------------------- | ------------------------------------------------------------------- |
 | Alt + F4                  | Exit the application.                                               |
 | F5                        | Updated match information on the main window.                       |
 | Alt + cursor keys         | Scale window in 10-pixel increments in the direction of the cursor. |
 | Alt + Shift + Cursor Keys | Scale window in 1-pixel inclement in the direction of the cursor.   |
+| Shift + Space             | Toggle the "Hide title" option.                                     |
+| Alt + Space               | disable the "Hide title" option and shows the window context menu.  |
 
 ## Context menu
 
@@ -100,7 +103,7 @@ Right-click to display the context menu.
 
 ![ContextMenu](:TeamMatch-contextMenu.png "ContextMenu")
 
-| Item            | Operation details                            |
+| Item            | Description                                  |
 | --------------- | -------------------------------------------- |
 | Settings        | Displays the settings window.                |
 | Show my history | Displays the history window of the set user. |
@@ -114,15 +117,15 @@ Right-click to display the context menu.
 The match history of the player with the set ID is displayed.  
 Select the leaderboard from the list and change the left list to the selected match type.  
 
-| Items        | Contents                                                                     |
-| ------------ | ---------------------------------------------------------------------------- |
-| Map          | Maps ever used.                                                              |
-| Rate         | The rate at the time of the match and the change value of the rate.          |
+| Items        | Description                                                                   |
+| ------------ | ----------------------------------------------------------------------------- |
+| Map          | Maps ever used.                                                               |
+| Rate         | The rate at the time of the match and the change value of the rate.           |
 | Win          | Shows the status of victory or defeat <br> "〇" is given to the winning game. |
-| Civilization | civilization ever used.                                                      |
-| Color        | player color number.                                                         |
-| Date         | Date and time of the match.                                                  |
-| Version      | Software version of the AoE2DE.                                              |
+| Civilization | civilization ever used.                                                       |
+| Color        | player color number.                                                          |
+| Date         | Date and time of the match.                                                   |
+| Version      | Software version of the AoE2DE.                                               |
 
 The right graph shows the win or loss.  
 Select "Data source" to switch between civilization and map.  
@@ -140,7 +143,7 @@ Select "Data source" to switch between civilization and map.
 Displays information about players ever matched.  
 The left table shows a list of players and player information.  
 
-| Items      | Contents                                                                                           |
+| Items      | Description                                                                                        |
 | ---------- | -------------------------------------------------------------------------------------------------- |
 | Name       | Player name.                                                                                       |
 | Country    | Country name.                                                                                      |
@@ -169,7 +172,7 @@ Show only the players whose country is checked.
 
 Displays statistics and rate history graphs for each match type.
 
-| Items          | Contents                                                    |
+| Items          | Description                                                 |
 | -------------- | ----------------------------------------------------------- |
 | Leaderboard    | The graph shows the match format with the checkbox checked. |
 | Rank           | Current rank                                                |
@@ -192,21 +195,33 @@ Set the window settings and user settings.
 
 ![Settings](:settings.png "Settings")
 
-## Display settings
+## Display contents
 
-| Items                      | Contents                                                    |
-| -------------------------- | ----------------------------------------------------------- |
-| Always on top              | Set the main window always front.                           |
-| Hide title                 | Hides the title bar of the main window.                     |
-| Transparency window        | Set the main window background transparent.                 |
-| Opacity                    | Set text and background transparency of the main window.    |
-| Chroma key                 | As chroma key, set the background color of the main window. |
-| Draw high quality          | Sets the text drawing quality.                              |
-| Auto reload the last match | Reload the current match information automatically.         |
+| Items             | Description                                                                                                                                                     |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Hide title        | Hides the title bar of the main window.                                                                                                                         |
+| Visible game time | It shows the game time started and elapsed.<br> It is the time obtained from the server.<br> So the time is forward from the actual time displayed in the game. |
+
+## Appearance
+
+| Items                  | Description                                                 |
+| ---------------------- | ----------------------------------------------------------- |
+| Draw high quality text | Sets the text drawing quality.                              |
+| Always on top          | Set the main window always front.                           |
+| Transparency window    | Set the main window background transparent.                 |
+| Opacity                | Set text and background transparency of the main window.    |
+| Chroma key             | As chroma key, set the background color of the main window. |
+
+## Behavior
+
+| Items                      | Description                                                      |
+| -------------------------- | ---------------------------------------------------------------- |
+| Auto reload the last match | Reload the current match information automatically.              |
+| AoE2.Net [status]          | It shows [AoE2.net](https://aoe2.net/ "AoE2.net") Server status. |
 
 ## Player settings
 
-| Items      | Contents                                             |
+| Items      | Description                                          |
 | ---------- | ---------------------------------------------------- |
 | Steam-ID   | Select when set the user using your Steam account.   |
 | profile-ID | Select when set the user using your AoE2net account. |
