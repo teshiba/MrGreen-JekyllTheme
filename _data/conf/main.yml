@@ -148,6 +148,15 @@ color_scheme_switch_top_nav_hover_effect: "hover-effect"
 scroll_back_to_top_button: true
 
 ###########################################################
+#                Header Text
+###########################################################
+# this enables header text to the top of the page
+main_header: true
+
+# this centers header text
+main_header_centered: true
+
+###########################################################
 #                Footer Text
 ###########################################################
 # this enables side navigation bar footer

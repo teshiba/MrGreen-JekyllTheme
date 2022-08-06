@@ -1,0 +1,21 @@
+{%-comment-%}
+  Mr. Green Jekyll Theme - v1.1.0 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
+  Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
+  Licensed under MIT
+{%-endcomment-%}
+
+{%- if site.data.conf.main.main_header_centered %}
+  {%- assign header_class = 'header-text-centered' -%}
+{% endif -%}
+
+<div class="header-wrapper">
+  <div class="header-container">
+    <header translate="no">
+      {% if site.data.conf.main.main_header -%}
+        <div class="header-text {{ header_class }}">
+          Header text
+        </div>
+      {% endif -%}
+    </header>
+  </div>
+</div>

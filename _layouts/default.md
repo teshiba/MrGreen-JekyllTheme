@@ -41,6 +41,7 @@ layout: util/compress
     {% if site.data.conf.posts.post_table_of_contents and page.layout == "post"-%}
       {%- include post/table-of-contents.html -%}
     {%- endif -%}
+    {%- include default/header.html -%}
     <div id="main-wrapper">
       <div class="main-container">
         {%- assign returned_content = content %}
