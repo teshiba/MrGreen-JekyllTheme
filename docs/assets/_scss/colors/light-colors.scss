@@ -51,6 +51,11 @@ $header-background-color-light: #e5eeff;
   --multipurpose-container-background-color: #{$container-background-light};
   --multipurpose-container-shadow: 1px 1px 0 1px #e5e2e2fb;
 }
+// default/header
+%header-colors-light {
+  --header-background-color: #{$main-background-light};
+  --header-text-color: #000000;
+}
 // default/footer
 %footer-colors-light {
   --footer-background-color: #{$main-background-light};

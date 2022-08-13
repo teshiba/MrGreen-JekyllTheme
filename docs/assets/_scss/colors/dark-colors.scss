@@ -52,6 +52,11 @@ $header-background-color-dark: #383a3d;
   --multipurpose-container-background-color: #{$container-background-dark};
   --multipurpose-container-shadow: 0 0px 5px #ffffff33;
 }
+// default/header
+%header-colors-dark {
+  --header-background-color: #{$main-background-dark};
+  --header-text-color: #000000;
+}
 // default/footer
 %footer-colors-dark {
   --footer-background-color: #{$main-background-dark};
