@@ -38,6 +38,7 @@
   .upside-down-tabs {
     left: 0px;
     width: 100%;
+    top: -40px;
   }
 {% endif %}
 
@@ -45,7 +46,7 @@
   .searchbox-container {
     /* fixed to top nav */
     position: absolute;
-    top: 10px;
+    top: calc(var(--header-height) + 12px);
     left: unset;
     right: var(--main-container-margin);
   }
