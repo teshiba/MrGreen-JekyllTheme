@@ -41,6 +41,7 @@ layout: util/compress
     {% if site.data.conf.posts.post_table_of_contents and page.layout == "post" or page.layout == "home" -%}
       {%- include post/table-of-contents.html -%}
     {%- endif -%}
+    {%- include default/header.html -%}
     <div id="main-wrapper">
       <div class="main-container">
         {%- assign returned_content = content %}
@@ -56,7 +57,7 @@ layout: util/compress
       {%- include default/footer.html -%}
       {% if site.data.conf.main.scroll_back_to_top_button -%}
       <div class="scroll-to-top-container">
-        <a id="scroll-to-top" href="#main-wrapper" class="hover-effect"><i class="fa fa-angle-up"></i></a>
+        <a id="scroll-to-top" href="#main-wrapper" class="hover-effect"></a>
       </div>
       {%- endif -%}
     </div>

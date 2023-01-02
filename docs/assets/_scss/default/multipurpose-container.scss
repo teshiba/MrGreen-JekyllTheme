@@ -9,18 +9,18 @@
 }
 
 .main-container {
-  min-height: calc(100vh - (var(--top-nav-height) + var(--footer-height)));
+  min-height: calc(100vh - (var(--top-nav-height) + var(--footer-height)+ var(--header-height)));
   max-width: var(--main-container-max-width);
   padding-left: var(--main-container-margin);
   padding-right: var(--main-container-margin);
-  padding-top: var(--main-container-margin);
+  padding-top: var(--main-container-padding-top);
   padding-bottom: var(--main-container-padding-bottom);
+  margin-top: 43px;
 }
 
 .multipurpose-container {
   @include get_scheme(default-colors-);
   background-color: var(--multipurpose-container-background-color);
-  box-shadow: var(--multipurpose-container-shadow);
   border-radius: 10px;
   padding: var(--text-spacing);
   margin-bottom: var(--multipurpose-container-margin-bottom);

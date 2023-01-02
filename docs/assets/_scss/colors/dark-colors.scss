@@ -7,12 +7,13 @@
 // otherwise it will be added to all output css files
 
 // dark color scheme definitions
-$brand-color-dark: #71b2ff;
+$brand-color-dark: #fff4e8;
 $main-background-dark: #191919;
-$button-color-dark: #666;
-$menu-background-dark: #252525;
-$header-color-dark: #c0c0c0;
-$container-background-dark: #2a2a2a;
+$button-color-dark: #2c0f00;
+$text-color-dark: #2c2500;
+$menu-background-dark: #00000000;
+$header-color-dark: #9d3d00;
+$container-background-dark: #00000000;
 $hr-color-dark: #333;
 $anchor-text-color-dark: #3389de;
 $header-background-color-dark: #383a3d;
@@ -36,7 +37,7 @@ $header-background-color-dark: #383a3d;
 // default/contact
 %contact-colors-dark {
   --contact-icons-color: #{$button-color-dark};
-  --contact-icons-hover-color: #cfcfcc;
+  --contact-icons-hover-color: #522e03;
   --contact-header-color: #{$button-color-dark};
   > ul > li > a > img {
     filter: invert(36%) sepia(0%) saturate(1157%) hue-rotate(184deg)
@@ -52,10 +53,14 @@ $header-background-color-dark: #383a3d;
   --multipurpose-container-background-color: #{$container-background-dark};
   --multipurpose-container-shadow: 0 0px 5px #ffffff33;
 }
+// default/header
+%header-colors-dark {
+  --header-background-color: #{$main-background-dark};
+  --header-text-color: #000000;
+}
 // default/footer
 %footer-colors-dark {
-  --footer-background-color: #{$main-background-dark};
-  --footer-text-color: #abacaa;
+  --footer-text-color: #000000;
   // to invert svg
   .footer-text > a > img {
     -webkit-filter: invert(100%);
@@ -65,30 +70,30 @@ $header-background-color-dark: #383a3d;
 // default/nav/lang-switch
 %lang-switch-colors-dark {
   --lang-switch-text-color: #{$button-color-dark};
-  --lang-switch-hover-text-color: #cbcdcd;
-  --lang-switch-active-text-color: #cbcdcd;
+  --lang-switch-hover-text-color: #ffffff;
+  --lang-switch-active-text-color: #ffffff;
 }
 // default/sliding-msg-box
 %sliding-msg-box-colors-dark {
-  --sliding-msg-box-background-color: #{$menu-background-dark};
+  --sliding-msg-box-background-color: #2d1804;
   --sliding-msg-box-border-color: #{$hr-color-dark};
   --sliding-msg-box-header-color: #{$header-color-dark};
   --sliding-msg-box-header-shadow-color: #fefdfc4d;
 }
 // default/nav/navigation-buttons
 %navigation-buttons-colors-dark {
-  --side-top-nav-buttons-text-color: #{$button-color-dark};
-  --side-top-nav-buttons-hover-text-color: #cbcfcf;
-  --side-top-nav-buttons-active-text-color: #cbcfcf;
+  --side-top-nav-buttons-text-color: #{$text-color-dark};
+  --side-top-nav-buttons-hover-text-color: #ffffff;
+  --side-top-nav-buttons-active-text-color: #ffffff;
 }
 // default/nav/navigation
 %navigation-colors-dark {
   --side-top-nav-brand-text-color: #{$brand-color-dark};
   --side-top-nav-brand-hover-text-color: #{$header-color-dark};
   --side-top-nav-background-color: #{$menu-background-dark};
-  --side-nav-sub-title-text-color: #919191;
+  --side-nav-sub-title-text-color: #471100;
   --side-nav-copyright-text-color: #{$button-color-dark};
-  --side-nav-right-border-color: #{$hr-color-dark};
+  --side-nav-right-border-color: #00000000;
 }
 // default/nav/navigation-side-nav-bottom-buttons
 %navigation-bottom-colors-dark {
@@ -153,7 +158,7 @@ $header-background-color-dark: #383a3d;
 }
 // common/close-button
 %close-button-colors-dark {
-  --close-button-color: #777;
+  --close-button-color: rgb(42, 10, 0);
   --close-button-hover-color: #{$header-color-dark};
 }
 // layout: projects, post, post-list
@@ -186,11 +191,11 @@ $header-background-color-dark: #383a3d;
 // layout: post
 // post/table-of-contents
 %table-of-contents-colors-dark {
-  --table-of-contents-focus-text-color: #ccc;
+  --table-of-contents-focus-text-color: rgb(255, 255, 255);
   --table-of-contents-focus-border-left-color: #{$brand-color-dark};
-  --table-of-contents-hover-text-color: #ccc;
+  --table-of-contents-hover-text-color: rgb(87, 48, 0);
   --table-of-contents-hover-border-left-color: #{$brand-color-dark};
-  --table-of-contents-shadow-color: #888b8b55;
+  --table-of-contents-shadow-color: #00000055;
 }
 // layout: post-list
 // post-list/thumbnails
@@ -241,9 +246,9 @@ $header-background-color-dark: #383a3d;
 // layout: links
 // links/link-style
 %link-style-colors-dark {
-  --links-button-text-color: #{$container-background-dark};
-  --links-button-border-color: #{$container-background-dark};
-  --links-button-hover-color: #{$container-background-dark};
+  --links-button-text-color: #000000;
+  --links-button-border-color: #000000;
+  --links-button-hover-color: #000000;
 }
 // layout: projects
 // projects/project-container

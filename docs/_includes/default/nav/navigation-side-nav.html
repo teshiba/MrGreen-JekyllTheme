@@ -22,25 +22,20 @@
         {% include default/nav/lang-switch.html -%}
       {% endif %}
     </div>
-    <br>
     {% if site.data.conf.main.side_nav_toggle_button_no_top_nav_buttons and site.data.conf.main.side_nav_toggle_close_button -%}
       <a href="javascript:void(0);" class="side-nav-close">
         <i class="fa fa-angle-double-left fa-2x" aria-hidden="true"></i>
       </a>
     {% endif -%}
-    <hr>
-    <br>
     <div class="side-nav-buttons">
       <ul class="nav nav-pills nav-stacked">
         {% include default/nav/navigation-buttons.html effect = site.data.conf.main.side_nav_buttons_hover_effect -%}
       </ul>
     </div>
-    <br>
-    <br>
     {%- if site.data.conf.main.contacts and site.data.owner[lng].contacts.size > 0 -%}
       {% include default/nav/contact-links.html -%}
     {% endif %}
-    <hr id="toc-view-top">
+    <div id="toc-view-top"></div>
     <div class="side-nav-footer" translate="no">
       {%- if site.data.conf.main.side_nav_footer %}
         {%- include default/copyright-text.liquid %}

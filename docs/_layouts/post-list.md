@@ -9,7 +9,9 @@ layout: default
   {% include post-list/upside-down-tabs.html -%}
 {% endif -%}
 
-<div class="post-list-header"></div>
+<div class="post-list-header">
+    {{ content }}
+</div>
 <div class="post-list-container">
   {% for post in paginator.posts -%}
     {% include post-list/post-thumbnail-data.liquid post = post -%}

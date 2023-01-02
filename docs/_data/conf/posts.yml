@@ -33,7 +33,7 @@ thumbnail_img_fill: true
 ###########################################################
 # this is needed for Upside Down Tabs and multilingual pages (dynamic pagination)
 # if you disable this feature, you don't need post-query.json file so please open the file and uncomment the "published: false"
-post_query: true
+post_query: false
 
 # select one below
 # 1. scroll_to_load    # calculate approx. of how many post thumbnail can be listed on the screen, and loads only the number of thumbnails which fits to the screen + 1, remaining thumbnails will be loaded by page scroll.

@@ -14,7 +14,7 @@
   position: absolute;
   margin: 0;
   padding: 0 10px;
-  top: -7px;
+  top: -2px;
   color: var(--contact-header-color);
   background-color: var(--side-top-nav-background-color);
   font-size: 1.3rem;
@@ -22,6 +22,7 @@
   transform: translateX(-50%);
   left: 50%;
   transition: all 0.4s ease;
+  height: 15px;
 }
 
 .contact-container > hr {
@@ -36,6 +37,11 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  background-position: bottom;
+  background-image: url(seperator.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 55px;
 }
 
 .contact-container > ul:hover {
@@ -54,7 +60,7 @@
 .contact-container > ul > li > a {
   display: block;
   color: var(--contact-icons-color);
-  padding: 6px;
+  padding: 13px;
 }
 
 .contact-container > ul > li > a:hover {

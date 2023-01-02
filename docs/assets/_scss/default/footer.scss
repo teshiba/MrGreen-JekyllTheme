@@ -22,6 +22,10 @@ footer {
     20px 0px 0 0 var(--footer-background-color);
   display: block;
   height: var(--footer-height);
+  background-size: cover;
+  background-image: url("wooden-bar_bg_bottom.png");
+  font-size: 3px;
+  font-weight: bold;
 }
 
 .footer-container footer a {
@@ -45,11 +49,13 @@ footer {
 
 .footer-text p,
 .footer-powered {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
+  margin-top:4px;
   margin-bottom: 0;
   padding-bottom: 5px;
   padding-top: 5px;
   color: var(--footer-text-color);
+  font-weight: bold;
 }
 
 .footer-text {
@@ -62,7 +68,11 @@ footer {
   white-space: nowrap;
   position: absolute;
   right: 0;
-  background-color: var(--footer-background-color);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.footer-powered > a {
+  color: #124b02;
 }
 
 .footer-text-centered {

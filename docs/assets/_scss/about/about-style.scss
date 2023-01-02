@@ -5,10 +5,15 @@
 
 .about-container {
   @include get_scheme(about-style-colors-);
-  margin-top: 15%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding: 0;
+  margin-top: 13%;
+  margin-left: 4%;
+  margin-right: 3%;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 87px;
+  padding-left: 50px;
+  background-image: url(command-panel_collapsed_full.png);
+  background-size: contain;
 }
 
 .about-container .about-main {
@@ -45,7 +50,7 @@
 .about-container .about-header > h1 {
   font-weight: 700;
   font-size: 3.5rem;
-  margin-top: 0px;
+  margin-top: 40px;
   color: var(--about-header-title-color);
   width: calc((100vw - var(--side-nav-width)) / 2);
 }

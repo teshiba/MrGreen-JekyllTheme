@@ -119,21 +119,21 @@ color_scheme_dark: true
 # this sets default color scheme to dark. (color_scheme_dark must be enabled)
 # page start will be dark color scheme. You can change color scheme using switches
 # this feature doesn't need switches.
-color_scheme_default_dark: false
+color_scheme_default_dark: true
 
 # default color will change based on browser dark color scheme (color_scheme_default_dark should be disabled.)
 # you don't need to enable this if any switch is enabled.
-color_scheme_browser_color_mode: true
+color_scheme_browser_color_mode: false
 
 # side nav and top nav color scheme switches
 # when any switch is enabled, if browser color scheme is dark, site default color is set to dark at page load.
 # if user change the site color scheme using color scheme switch, setting will be saved with javascript localStorage api.
 
 # this adds color scheme switch to side nav bottom (color_scheme_dark must be enabled)
-color_scheme_switch_side_nav: true
+color_scheme_switch_side_nav: false
 
 # this adds color scheme switch to top nav (color_scheme_dark must be enabled)
-color_scheme_switch_top_nav: true
+color_scheme_switch_top_nav: false
 
 # this adds tooltip to color scheme switch
 color_scheme_switch_tooltip: true
@@ -146,6 +146,15 @@ color_scheme_switch_top_nav_hover_effect: "hover-effect"
 ###########################################################
 # when you scroll down the page, this button allows you to scroll back to top of the page
 scroll_back_to_top_button: true
+
+###########################################################
+#                Header Text
+###########################################################
+# this enables header text to the top of the page
+main_header: true
+
+# this centers header text
+main_header_centered: true
 
 ###########################################################
 #                Footer Text
