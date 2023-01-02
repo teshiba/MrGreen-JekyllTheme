@@ -5,12 +5,24 @@
  *  Licensed under MIT
 */
 
+{% if site.data.conf.main.main_header == true %}
+  :root {
+    --header-height: 103px;
+    --header-visibility: visible;
+  }
+{% else %}
+  :root {
+    --header-height: 0px;
+    --header-visibility: hidden;
+  }
+{% endif %}
+
 :root {
   /* with profile img, 2.3rem, otherwise 3rem suits. */
   --side-nav-brand-text-font-size: 2.3rem;
-  --side-nav-width: 230px;
-  --side-nav-width-def: 230px;
-  --side-nav-side-margin: 20px;
+  --side-nav-width: 250px;
+  --side-nav-width-def: 250px;
+  --side-nav-side-margin: 10px;
   --top-nav-height: 0px;
   --top-nav-height-def: 52px;
   /* min:5px, nominal:3%, max:25px */
@@ -24,6 +36,7 @@
   /* space between containers */
   --multipurpose-container-margin-bottom: 20px;
   --footer-height: 27px;
+  --main-container-padding-top: calc(var(--header-height) - 87px);
 }
 
 {% if site.data.conf.main.google_font_load_in_head == nil or site.data.conf.main.google_font_load_in_head == false %}
@@ -38,6 +51,10 @@
 @import "default/body-main-styles";
 
 @import "default/multipurpose-container";
+
+{% if site.data.conf.main.main_header %}
+  @import "default/header";
+{% endif %}
 
 @import "default/footer";
 {% if site.data.conf.main.main_fixed_footer and site.data.conf.main.main_footer %}

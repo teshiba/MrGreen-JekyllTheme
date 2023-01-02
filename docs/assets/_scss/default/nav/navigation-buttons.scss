@@ -9,7 +9,14 @@
 }
 
 .side-nav-buttons {
+  top: 5px;
+  position: relative;
   text-align: center;
+  background-position: bottom;
+  background-image: url(seperator.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 170px;
 }
 
 /* side nav and top nav buttons */

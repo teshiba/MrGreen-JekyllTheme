@@ -15,7 +15,6 @@
   @include get_scheme(scroll-to-top-colors-);
   position: fixed;
   display: none;
-  border-radius: 50%;
   height: 40px;
   width: 40px;
   z-index: 3;
@@ -24,6 +23,7 @@
   box-shadow: 0 0 5px var(--scroll-to-top-shadow-color);
   opacity: 0;
   transition: all 0.4s;
+  background-image: url("campaign_up_hover.png");
 }
 
 #scroll-to-top:hover {

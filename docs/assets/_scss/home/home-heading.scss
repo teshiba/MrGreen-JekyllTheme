@@ -48,29 +48,35 @@
 .home-intro-text > h4,
 .home-intro-text > h5,
 .home-intro-text > h6 {
-  color: var(--home-intro-text-header-color);
+  color: var(--body-text-color);
+  text-shadow: 3px 1px 2px black;
 }
 
 /* home intro text */
 /* currently handled by markdown-style use this to override */
 
 .home-intro-text > h1 {
-  font-size: 26px;
-  background-color: var(--body-header-background-color);
-  border-bottom: solid 3px #7b7d7f;
-  border-left: solid 9px #0d73da;
-  padding: 5px;
+  font-size: 25px;
+  background-image: url("poststatistics_player_banner_blue_left.png"),
+  url("poststatistics_player_banner_blue_right.png"),
+  url("poststatistics_player_banner_blue_center.png");
+  background-position: left, right, center ;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  padding-left: 46px;
+  padding-top: 3px;
+  margin-left: -25px;
+  height: 36px;
 }
 
 .home-intro-text > h2 {
-  font-size: 24px;
+  font-size: 23px;
   border-bottom: solid 3px #656667;
   padding: 5px;
   margin: 3px;
 }
 
 .home-intro-text > h3 {
-  font-size: 22px;
+  font-size: 21px;
   border-bottom: solid 2px #989696;
   padding: 5px;
   margin: 10px;
