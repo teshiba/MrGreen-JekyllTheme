@@ -96,6 +96,8 @@ And you can perform the following on the window.
 | Alt + Shift + Cursor Keys | Scale window in 1-pixel inclement in the direction of the cursor.   |
 | Shift + Space             | Toggle the "Hide title" option.                                     |
 | Alt + Space               | disable the "Hide title" option and shows the window context menu.  |
+| ←（Left cursor）         | Show previous match result.                                         |
+| →（Right cursor）        | Show next match result.                                             |
 
 ## Context menu
 
@@ -125,7 +127,7 @@ Select the leaderboard from the list and change the left list to the selected ma
 | Civilization | civilization ever used.                                                       |
 | Color        | player color number.                                                          |
 | Date         | Date and time of the match.                                                   |
-| Version      | Software version of the AoE2DE.                                               |
+| Version      | ~~Software version of the AoE2DE.~~ (This item has disabled.)                 |
 
 The right graph shows the win or loss.  
 Select "Data source" to switch between civilization and map.  
@@ -146,7 +148,7 @@ The left table shows a list of players and player information.
 | Items      | Description                                                                                        |
 | ---------- | -------------------------------------------------------------------------------------------------- |
 | Name       | Player name.                                                                                       |
-| Country    | Country name.                                                                                      |
+| Country    | Country name.(This item is no longer available.)                                                   |
 | 1v1 Rate   | Rate when 1v1 played. <br> Not display if you are not playing a 1v1 match with the player.         |
 | Team Rate  | Rate when team match played. <br> Not display if you are not playing a team match with the player. |
 | Team Games | Number of games played with the players.                                                           |
@@ -165,12 +167,17 @@ If you want to ignore the case, check the "Ignore case" checkbox.
 The right graph shows the number of players ever matched by country.  
 Right-click on a column heading in the list and bring up the country filter.  
 Show only the players whose country is checked.  
+Every country's name is N/A because this item is no longer available.
 
 ![CountryFilter](:CountryFilter.png "CountryFilter")
 
 ## Statistics tab
 
 Displays statistics and rate history graphs for each match type.
+
++ELO adjustment day is drawn as `Update Elo:7/14`.
+See also follows link for details.
++<https://www.ageofempires.com/news/updates-to-ranked-team-game-elo-calculation/>
 
 | Items          | Description                                                 |
 | -------------- | ----------------------------------------------------------- |
@@ -226,4 +233,4 @@ Set the window settings and user settings.
 | Steam-ID   | Select when set the user using your Steam account.   |
 | profile-ID | Select when set the user using your AoE2net account. |
 | Name       | Displays the player name of the ID.                  |
-| Country    | Displays the country name of the ID.                 |
+| Country    | Displays the country name of the ID.(This item is no longer available.) |
